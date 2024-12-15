@@ -1,0 +1,30 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+
+   <div class="row">
+    <div class="col-md-4">
+        <h2>Место расположения</h2>
+        <p>
+            Парк аттракционов в Санкт-Петербурге:
+        </p>
+        <p><a class="btn btn-default" href="https://www.divo-ostrov.ru/opened-rides">Диво-остров &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Другая карта</h2>
+        <p>Парк аттракционов "остров мечты"</p>
+        <p><a class="btn btn-default" href="https://dreamisland.ru/tickets/buy?utm_source=yandex&utm_medium=cpc&utm_campaign=ic_yandex_search_competitors_Master&utm_content=text1.cid_85706169%7Cgid_5164941874%7Cadid_16595142920%7Cphid_44053805886%7Cntw_search%7Csrc_none%7Cgeo_25%7Cdev_desktop%7Cpos_premium2%7Cmatchtype_%7Crid_44053805886&utm_term=---autotargeting.none.44053805886&roistat_referrer=none&roistat_pos=premium_2&roistat=direct10_search_16595142920_---autotargeting&yclid=1466313472907149311">Остров мечты &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Отзывы</h2>
+        <p>Специальный источник с регулярными отзывами от клиентов</p>
+        <p><a class="btn btn-default" href="https://otzovik.com/review_16657058.html">Отзывы &raquo;</a></p>
+    </div>
+</div>
+
+
+{% endblock %}
